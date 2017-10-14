@@ -14,11 +14,7 @@ int main(void) {
 	init();
   
 	while (1) 
-	{   
-		// begin infinite loop
-		//_delay_ms(1000);  	// delay 1/2 second
-		//PORTB ^= 0x20;   	// set pin 13 to LOW and back
-		
+	{   		
 		sleep_enable();
 		sleep_cpu();
 		sleep_disable();
